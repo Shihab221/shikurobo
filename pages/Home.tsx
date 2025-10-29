@@ -63,7 +63,7 @@ export default function Home({ onNavigate }: HomeProps) {
             >
               <button
                 onClick={() => onNavigate('projects')}
-                className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
+                className="px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-xl hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
               >
                 View All Projects
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -112,7 +112,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl mb-4">
                   <stat.icon className="w-8 h-8 text-white" />
                 </div>
                 <div className="text-gray-900 dark:text-white mb-2">{stat.value}</div>
