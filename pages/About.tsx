@@ -109,7 +109,7 @@ export default function About() {
                 className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center">
                     <skill.icon className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -123,7 +123,7 @@ export default function About() {
                     whileInView={{ width: `${skill.level}%` }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: index * 0.1 }}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 h-2 rounded-full"
+                    className="bg-gradient-to-r from-orange-500 to-red-500 h-2 rounded-full"
                   />
                 </div>
               </motion.div>
@@ -148,7 +148,7 @@ export default function About() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-6 rounded-2xl text-center border border-blue-100 dark:border-blue-800"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl mb-4">
                   <achievement.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-gray-900 dark:text-white mb-2">{achievement.title}</h3>

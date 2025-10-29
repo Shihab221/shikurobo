@@ -38,7 +38,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => onNavigate('home')}
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
               <Cpu className="w-6 h-6 text-white" />
             </div>
             <span className="text-xl text-gray-900 dark:text-white">RoboTech</span>

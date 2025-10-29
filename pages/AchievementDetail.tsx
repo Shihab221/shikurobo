@@ -181,7 +181,7 @@ export default function AchievementDetail({ achievementId, onNavigate }: Achieve
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <button
                   onClick={() => onNavigate('contact')}
-                  className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:shadow-xl transition-all"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-xl hover:shadow-xl transition-all"
                 >
                   Get in Touch
                 </button>

@@ -232,7 +232,7 @@ export default function Home({ onNavigate }: HomeProps) {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white">
+      <section className="py-20 bg-gradient-to-br from-orange-500 via-red-500 to-amber-500 text-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

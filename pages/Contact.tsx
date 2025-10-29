@@ -116,7 +116,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
+                  className="w-full px-6 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-xl hover:shadow-xl transition-all flex items-center justify-center gap-2 group"
                 >
                   Send Message
                   <Send className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -177,7 +177,7 @@ export default function Contact() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.4 + index * 0.1 }}
                     whileHover={{ scale: 1.1 }}
-                    className="w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center text-white hover:shadow-xl transition-all"
+                    className="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center text-white hover:shadow-xl transition-all"
                   >
                     <social.icon size={24} />
                   </motion.a>
