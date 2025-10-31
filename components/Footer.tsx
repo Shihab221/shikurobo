@@ -36,7 +36,7 @@ export default function Footer() {
             <h3 className="text-white mb-4">Connect</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://github.com/shihab221"
                 className="w-10 h-10 bg-gray-800 dark:bg-gray-900 rounded-lg flex items-center justify-center hover:bg-gray-700 dark:hover:bg-gray-800 transition-colors"
               >
                 <Github size={20} />
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 dark:border-gray-900 mt-8 pt-8 text-center text-gray-500 dark:text-gray-600">
-          <p>&copy; 2025 RoboTech. All rights reserved.</p>
+          <p>&copy; 2025 roboVerse. All rights reserved.</p>
         </div>
       </div>
     </footer>

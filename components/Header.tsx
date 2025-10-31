@@ -41,7 +41,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
               <Cpu className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl text-gray-900 dark:text-white">RoboTech</span>
+            <span className="text-xl text-gray-900 dark:text-white">roboVerse</span>
           </motion.div>
 
           {/* Desktop Navigation */}

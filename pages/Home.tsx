@@ -22,14 +22,14 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
 
         <div className="container mx-auto px-4 py-20 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full mb-6">
-                Hardware Robotics Portfolio
+              <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full mb-6 text-4xl">
+                Welcome to roboVerse
               </span>
             </motion.div>
 
@@ -40,7 +40,7 @@ export default function Home({ onNavigate }: HomeProps) {
               className="text-gray-900 dark:text-white mb-6"
             >
               Building the Future with
-              <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-orange-500  to-red-500 bg-clip-text text-transparent">
                 Robotics & Innovation
               </span>
             </motion.h1>
