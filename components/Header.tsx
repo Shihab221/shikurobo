@@ -15,6 +15,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
 
   const navItems = [
     { name: 'Home', path: 'home' },
+    { name: 'Resume', path: 'resume' },
     { name: 'Projects', path: 'projects' },
     { name: 'Achievements', path: 'achievements' },
     { name: 'About', path: 'about' },

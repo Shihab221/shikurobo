@@ -11,6 +11,7 @@ import Achievements from '../pages/Achievements';
 import AchievementDetail from '../pages/AchievementDetail';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import Resume from '@/pages/Resume';
 
 type Page = 'home' | 'projects' | 'about' | 'contact' | 'project' | 'achievements' | 'achievement';
 
@@ -47,6 +48,8 @@ export default function App() {
         return <About />;
       case 'contact':
         return <Contact />;
+        case 'resume':
+        return <Resume />;
       default:
         return <Home onNavigate={handleNavigate} />;
     }
